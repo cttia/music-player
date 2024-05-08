@@ -1,0 +1,15 @@
+{
+  "name": "my-music-app",
+  "scripts": {
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start-frontend": "kill-port 3000 && cd frontend && npm start",
+    "start-backend": "kill-port 5000 && cd backend && npm start",
+    "install-all": "npm run install-frontend && npm run install-backend",
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "kill-port": "^1.6.0"
+  }
+}

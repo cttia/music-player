@@ -1,0 +1,109 @@
+.home-page .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.home-page nav a, .home-page nav button {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.navbar nav a, .navbar nav button {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.featured-content, .recommendations, .recently-played {
+    padding: 20px;
+}
+
+footer.music-player {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logout-container {
+    margin-left: auto;
+}
+
+.logout-button {
+    padding: 8px 16px;
+    background-color: #f44336; /* Red color for the logout button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .welcome {
+    font-size: 16px;
+  }
+  
+  .welcome span {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .nav-link, .logout-button {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .nav-link:hover, .logout-button:hover {
+    text-decoration: underline;
+  }
+  
+
+
